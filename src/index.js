@@ -1,9 +1,9 @@
 import { registerBlockType } from '@wordpress/blocks';
  
-registerBlockType( 'myguten/test-block', {
-    title: 'Basic Example',
+registerBlockType( 'bulma/button', {
+    title: 'Bulma Button',
     icon: 'smiley',
     category: 'layout',
-    edit: () => <div>Hola, mundo!</div>,
-    save: () => <div>Hola, mundo!</div>,
+    edit: ({className}) => <div className={ className }>Hola, We!</div>,
+    save: () => <div>Hola, we 2!</div>,
 } );
