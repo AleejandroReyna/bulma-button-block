@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/AleejandroReyna/bulma-button-block.git",
   "author": "Alejandro Reyna <AleejandroReyna@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@wordpress/scripts": "7.1.2"
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  }
 }
