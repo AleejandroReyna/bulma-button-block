@@ -1,0 +1,9 @@
+{
+  "name": "bulma-button-block",
+  "version": "0.0.1",
+  "description": "simple button for bulma css",
+  "main": "index.js",
+  "repository": "https://github.com/AleejandroReyna/bulma-button-block.git",
+  "author": "Alejandro Reyna <AleejandroReyna@gmail.com>",
+  "license": "MIT"
+}
