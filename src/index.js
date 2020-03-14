@@ -110,7 +110,7 @@ registerBlockType( 'bulma/button', {
             }
 
             return (
-                <a className={`button ${attributes.buttonStyle}`} href={attributes.link} target={attributes.openNewTab ? '_blank' : ''}>
+                <a target={attributes.openNewTab ? '_blank' : '_self'} rel="noreferrer noopener" className={`button ${attributes.buttonStyle}`} href={attributes.link}>
                     <RichText.Content tagName="span" value={attributes.label} />
                 </a>
             )

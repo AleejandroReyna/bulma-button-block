@@ -255,9 +255,10 @@ Object(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__["registerBlockType"])('bul
       }
 
       return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("a", {
+        target: attributes.openNewTab ? '_blank' : '_self',
+        rel: "noreferrer noopener",
         className: "button ".concat(attributes.buttonStyle),
-        href: attributes.link,
-        target: attributes.openNewTab ? '_blank' : ''
+        href: attributes.link
       }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__["RichText"].Content, {
         tagName: "span",
         value: attributes.label
