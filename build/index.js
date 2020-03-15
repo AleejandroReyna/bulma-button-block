@@ -114,6 +114,7 @@ Object(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__["registerBlockType"])('bul
   title: 'Bulma Button',
   icon: 'smiley',
   category: 'layout',
+  description: 'Simple bulma button for buttons and links.',
   attributes: {
     buttonType: {
       type: 'string',
